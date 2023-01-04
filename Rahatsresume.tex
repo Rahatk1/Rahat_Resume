@@ -1,0 +1,227 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    \textbf{\Huge \scshape Rahat Khandokar} \\ \vspace{1pt}
+    \small 917-495-6045 $|$ \href{mailto:x@x.com}{\underline{Rahatkhandokar5@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/rahatkhandokar}{\underline{linkedin.com/in/rahatkhandokar/}} $|$
+    \href{https://github.com/...}{\underline{github.com/Rahatk1}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hunter College}{Manhattan, NY}
+      {Bachelor of Arts in Computer Science, Minor in Mathematics}{Aug. 2021 -- Expected May 2025}
+    % \resumeSubheading
+    %   {John Bowne High School }{Queens, NY}
+    %   {High School Diploma}{September. 2017 -- June 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Teacher}{June 2021 -- January 2022}
+      {Kumon North America, Inc}{Queens, NY}
+      \resumeItemListStart
+        \resumeItem{Coordinated a classroom of 40 kids, ranging from grades K-12. }
+        \resumeItem{Taught students English and Math, graded homework and classwork while administering daily problem sets for students.}
+        % \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Google Code Next Engineering Student}{Sep. 2020 -- June 2021}
+      {Google}{Manhattan, NY}
+      \resumeItemListStart
+        \resumeItem{Attended weekly workshops led by top google engineers which taught computer science concepts such as Systems and Networks, Cyber Security and DevOps.
+  }
+        \resumeItem{Participated in 4 different bootcamp activities for career development and technical skills}
+        \resumeItem{Created 5 projects and a website that was viewed by Google Software engineers and product managers. }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Front End Student}{July 2019 -- September 2019}
+      {All Star Code}{Manhattan, NY}
+      \resumeItemListStart
+        \resumeItem{36 hours/week of JavaScript, HTML, and CSS exposure and implementation.}
+        \resumeItem{Administered and led 25 small projects and websites using P5.JS and PixiJS.  }
+        \resumeItem{Launched an app called Truck Tracker that allows users to locate food trucks near their location and look at the food truck’s menu.}
+        \resumeItem{Created Truck Tracker using 3 languages (JavaScript, HTML and CSS) and implemented Google maps API and Google Firebase.}
+        \resumeItem{Mentored by a senior product manager at Amazon, Learned about product management within the technology sector.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+   
+      \resumeProjectHeading
+          {\textbf{ASLearn} $|$ \emph{JavaScript, HTML, CSS}}{February 2022 -- March 2022}
+          \resumeItemListStart
+            \resumeItem{Programmed an application that allows users to learn American Sign Language
+ while creating awareness for the deaf community.}
+             \resumeItem{Implemented Javascript to build an ASL memory game which allows users to test their knowledge of sign language by taking random generated quizzes consisting of phrases and images.
+               \resumeItem{Assisted designing 26 alphabetical letters using Adobe Photoshop and Procreate which was then implemented in the application.}
+             }
+
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\textbf{Portfolio} $|$ \emph{JavaScript, Firebase, HTML, CSS}}{January 2022 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a personal website that displays my portfolio.}
+          \resumeItemListEnd
+              \resumeItemListStart
+           \resumeItem{Users are able to download resume and use contact form to reach out.}
+          \resumeItemListEnd
+                \resumeProjectHeading
+          {\textbf{Jump Mario} $|$ \emph{Python, HTML, CSS}}{February 2022 -- February 2022}
+          \resumeItemListStart
+            \resumeItem{Architected a game where the user used navigation keys to control Mario's movement and not allow him to hit any pole or obstacle that comes at him.  }
+          \resumeItemListEnd
+           \resumeItemListStart
+            \resumeItem{Won Number 1 within a class of 45 for the fastest developed game within 1 hour.  }
+          \resumeItemListEnd
+          
+          
+          
+          
+      \resumeProjectHeading
+          {\textbf{Truck Tracker} $|$ \emph{Google Maps API, JavaScript, HTML, CSS}}{August 2019 -- August 2019}
+          \resumeItemListStart
+            \resumeItem{Developed an application that shows food trucks near Manhattan NY}
+            \resumeItem{Used the Google Maps API to get user location and list nearest Food truck with menus and prices.}
+            \resumeItem{Collaborated with Medidata Solutions employee's to suggest features and get feedback about the web application.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, JavaScript, HTML/CSS, LaTeX} \\
+    %  \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Folium}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
